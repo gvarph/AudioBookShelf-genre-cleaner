@@ -49,7 +49,7 @@ if __name__ == "__main__":
     keys = list(replace.keys())
 
     for key in keys:
-        key = key.strip
+        key = key.strip()
         if key not in existing_genres:
             del replace[key]
 
