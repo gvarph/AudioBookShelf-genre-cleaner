@@ -54,6 +54,6 @@ def get_replace(library: ABSLibrary, filename: str) -> list[replaceItem]:
         remove = replace[genre]["remove"]
         replace_with = replace[genre]["replace_with"]
         if remove or len(replace_with) > 0:
-            to_replace[genre] = replaceItem(remove, replace_with)
+            to_replace[genre.strip()] = replaceItem(remove, replace_with)
 
     return to_replace

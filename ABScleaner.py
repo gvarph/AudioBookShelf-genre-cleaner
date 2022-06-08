@@ -44,10 +44,12 @@ if __name__ == "__main__":
     replace = get_replace(lib, "replace.json")
 
     existing_genres = lib.get_genres()
+    existing_genres = [genre.strip() for genre in existing_genres]
 
     keys = list(replace.keys())
 
     for key in keys:
+        key = key.strip
         if key not in existing_genres:
             del replace[key]
 
@@ -68,8 +70,6 @@ if __name__ == "__main__":
             exit(0)
         else:
             print("Please enter y or n")
-
-    new_all_audiobooks = {}
 
     count = 0
     total = len(all_audiobooks)
