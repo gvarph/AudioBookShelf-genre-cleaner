@@ -18,12 +18,12 @@ class replaceItem:
             return " will be kept"
 
 
-def save_json(filename: str, json_data: dict):
+def save_json(filename: str, json_data: dict) -> None:
     with open(filename, "w") as f:
         f.write(json.dumps(json_data, indent=4))
 
 
-def gen_new_replace_file(library: ABSLibrary, fileName):
+def gen_new_replace_file(library: ABSLibrary, fileName) -> None:
     genres = {}
     existing_genres = library.get_genres()
     for genre in existing_genres:

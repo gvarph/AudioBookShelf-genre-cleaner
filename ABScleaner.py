@@ -1,22 +1,13 @@
-from curses import meta
-from dataclasses import dataclass
 import sys
-import json
-
-from matplotlib.pyplot import get
+import typing
 
 
-from replaceFile import save_json, get_replace
+from replaceFile import get_replace
 
 from ABSapiClient import ABSLibrary
 
 
-def save_json(filename: str, json_data: dict):
-    with open(filename, "w") as f:
-        f.write(json.dumps(json_data, indent=4))
-
-
-def get_basic_info():
+def get_basic_info() -> typing.Tuple[str, str, str]:
     if len(sys.argv) > 1:
         baseURL = sys.argv[1]
     else:
@@ -78,7 +69,6 @@ if __name__ == "__main__":
         else:
             print("Please enter y or n")
 
-    # save_json("all_audiobooks.json", all_audiobooks)
     new_all_audiobooks = {}
 
     count = 0

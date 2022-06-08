@@ -5,7 +5,7 @@ This is but a simple script used to clean up audiobook genres on AudioBookShelf
 ## Usage
 
 1) Download the script
-2) run `pip install -r requirements.txt` 
+2) run `pip install -r requirements.txt`
 3) generate AudioBookShelf API key (ABS -> Settings -> Users -> select a user -> API key)
 4) run the script once (using `python3 ABScleaner.py <url> <library> <Api key>`). This will create a new file called replace.json containing all of your existing book genres.
 5) edit the replace.json file with the genres you want to replace (see example below)

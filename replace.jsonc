@@ -1,0 +1,18 @@
+{ 
+    "Fantasy": { //will keep the Fantasy genre
+        "remove": false,
+        "replace_with": []
+    },
+    "Audiobooks": { //will remove the Audiobooks genre from any book
+        "remove": true,
+        "replace_with": []
+    },
+    "Sci-fi": { // will replace the Sci-fi genre with 'Science Fiction'
+        "remove": false,
+        "replace_with": ["Science Fiction"]
+    },
+    "Sci-fi & Fantasy": { // will remove the genre called 'Sci-fi & Fantasy'
+        "remove": false,  // and replace it with both 'Sci-fi' and 'Fantasy'
+        "replace_with": ["Science Fiction", "Fantasy"]
+    }
+}

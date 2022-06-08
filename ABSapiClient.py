@@ -39,7 +39,7 @@ class ABSLibrary:
             print("Error: " + response.text)
             exit(1)
 
-    def get_book_ids(self):
+    def get_book_ids(self) -> list[str]:
         book_ids = []
         for book in self.audiobooks:
             book_ids.append(book["id"])
