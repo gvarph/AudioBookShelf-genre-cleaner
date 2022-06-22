@@ -2,8 +2,6 @@ import sys
 import typing
 
 
-from replaceFile import get_replace
-
 from ABSapiClient import ABSLibrary
 
 
@@ -13,7 +11,7 @@ def get_basic_info() -> typing.Tuple[str, str, str]:
     else:
         print("Enter ABS URL: ", end="")
         baseURL = input()
-    baseURL += "/api"
+    baseURL += ""
 
     if len(sys.argv) > 2:
         library = sys.argv[2]
@@ -30,87 +28,36 @@ def get_basic_info() -> typing.Tuple[str, str, str]:
     return baseURL, library, api_token
 
 
-def print_progress(progress: int, total: int):
-    print(f"\rProgress: {progress}/{total}", end="")
-
-
 if __name__ == "__main__":
+
     baseURL, library, api_token = get_basic_info()
 
     lib = ABSLibrary(baseURL, library, api_token)
 
-    all_audiobooks = lib.get_all_audiobooks()
+    print("What do you want to do?")
+    print("1. Clean up genres")
+    print("2. find duplicates")
+    print("3. rebuild titles")
+    print("x. Exit")
 
-    replace = get_replace(lib, "replace.json")
-
-    existing_genres = lib.get_genres()
-    existing_genres = [genre.strip() for genre in existing_genres]
-
-    keys = list(replace.keys())
-
-    for key in keys:
-        key = key.strip()
-        if key not in existing_genres:
-            del replace[key]
-
-    if len(replace) == 0:
-        print("Nothing to replace")
-        exit(0)
-
-    for key, value in replace.items():
-        print('"' + key + '"' + str(value))
-
-    print("Continue? (y/n)")
-
-    while True:
+    a = True
+    while a:
+        a = False
         answer = input()
-        if answer == "y":
-            break
-        elif answer == "n":
+
+        if answer == "1":
+            lib.genre_cleanup()
+
+        elif answer == "2":
+            lib.find_dupes_by_ASIN()
+
+        elif answer == "3":
+            lib.rebuild_titles_by_ASIN()
+        elif answer == "4":
+            lib.cleanse_if_asin()
+
+        elif answer == "x":
             exit(0)
+
         else:
-            print("Please enter y or n")
-
-    count = 0
-    total = len(all_audiobooks)
-    posted = False
-    for audiobook in all_audiobooks:
-        count += 1
-        had_to_replace = False
-
-        payload = {}
-
-        id = audiobook["id"]
-        media = audiobook["media"]
-        metadata = media["metadata"]
-        if "genres" in metadata:
-            genres = metadata["genres"]
-            new_genres = []
-            for genre in genres:
-                genre = genre.strip()
-                if genre in replace:
-                    had_to_replace = True
-                    rep = replace[genre]
-                    if rep.remove:
-                        continue  # skip this genre
-                    for g in rep.replace_with:
-                        if g not in new_genres:
-                            new_genres.append(g)
-                elif genre not in new_genres:
-                    new_genres.append(genre)
-            payload = {"metadata": {"genres": new_genres}}
-
-        if had_to_replace:
-            data = payload
-
-            response = lib.patch_media_metadata(id, data)
-            print_progress(count, total)
-            if response.status_code == 200:
-                pass
-            else:
-                print("\tFailed to patch " + id)
-                print(response.text)
-
-        elif count == total:
-            print_progress(count, total)
-            break
+            a = True

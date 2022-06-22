@@ -1,0 +1,531 @@
+{
+    "id": "li_p79b8nd3s83axespd6",
+    "ino": "1448435",
+    "libraryId": "lib_zvozd8n5q71huwkwe2",
+    "folderId": "fol_r8g2w85itx31z2xz3s",
+    "path": "/audiobooks/Maari/Queen_in_the_Mud",
+    "relPath": "Maari/Queen_in_the_Mud",
+    "isFile": false,
+    "mtimeMs": 1654792807132,
+    "ctimeMs": 1654792807132,
+    "birthtimeMs": 1654792807092,
+    "addedAt": 1654794526154,
+    "updatedAt": 1654809998826,
+    "lastScan": 1654955225242,
+    "scanVersion": "2.0.21",
+    "isMissing": false,
+    "isInvalid": false,
+    "mediaType": "book",
+    "media": {
+        "libraryItemId": "li_p79b8nd3s83axespd6",
+        "metadata": {
+            "title": "Queen in the Mud",
+            "subtitle": null,
+            "authors": [
+                {
+                    "id": "aut_ljpyy8cjlwte2bdu1q",
+                    "name": "Maari"
+                }
+            ],
+            "narrators": [
+                "Larissa Thompson"
+            ],
+            "series": [],
+            "genres": [
+                "Science Fiction || Fantasy"
+            ],
+            "publishedYear": "2020",
+            "publishedDate": null,
+            "publisher": "Maari",
+            "description": "A girl suddenly vanishes from her world and finds herself drifting in and out of consciousness in a world of pure darkness. The only insight into her precarious situation is a prompt opening before her eyes indicating that the system failed to delete her.\u00a0\u00a0 The doggedly optimistic and naive teenager, Naomi, is reborn as a monster into a fantastical world governed by the rigid rules of a suspiciously game-like system; a world full of magic and danger where the familiar mingles with the inexplicable. She finds herself deep in the bizzarre, savage forests of the unclaimed lands where deadly monsters prowl in the shadows just out of sight.\u00a0 After a close brush with death, any hope that this could be a lighthearted adventure evaporates as she feels real pain for the first time. The realization sinks in as Naomi comes to terms with this not being just a game; it\u2019s her reality now.\u00a0 As if coming to grips with the life or death survival situation she finds herself in isn\u2019t enough, the description of one of her skills seems to be speaking to her....",
+            "isbn": null,
+            "asin": "B08BW8722S",
+            "language": "English",
+            "explicit": false
+        },
+        "coverPath": "/metadata/items/li_p79b8nd3s83axespd6/cover.jpg",
+        "tags": [
+            "Contemporary",
+            " Science Fiction"
+        ],
+        "audioFiles": [
+            {
+                "index": 1,
+                "ino": "1448436",
+                "metadata": {
+                    "filename": "Maari.-Queen_in_the_Mud.m4b",
+                    "ext": ".m4b",
+                    "path": "/audiobooks/Maari/Queen_in_the_Mud/Maari.-Queen_in_the_Mud.m4b",
+                    "relPath": "Maari.-Queen_in_the_Mud.m4b",
+                    "size": 295699432,
+                    "mtimeMs": 1654782782406,
+                    "ctimeMs": 1654782782406,
+                    "birthtimeMs": 1654782777296
+                },
+                "addedAt": 1654794526805,
+                "updatedAt": 1654955227072,
+                "trackNumFromMeta": null,
+                "discNumFromMeta": null,
+                "trackNumFromFilename": null,
+                "discNumFromFilename": null,
+                "manuallyVerified": false,
+                "invalid": false,
+                "exclude": false,
+                "error": null,
+                "format": "QuickTime / MOV",
+                "duration": 37257.579,
+                "bitRate": 62794,
+                "language": "und",
+                "codec": "aac",
+                "timeBase": "1/22050",
+                "channels": 2,
+                "channelLayout": "stereo",
+                "chapters": [
+                    {
+                        "id": 0,
+                        "start": 0,
+                        "end": 11.795,
+                        "title": "001"
+                    },
+                    {
+                        "id": 1,
+                        "start": 11.795,
+                        "end": 491.148,
+                        "title": "002"
+                    },
+                    {
+                        "id": 2,
+                        "start": 491.148,
+                        "end": 1365.89,
+                        "title": "003"
+                    },
+                    {
+                        "id": 3,
+                        "start": 1365.89,
+                        "end": 2075.445,
+                        "title": "004"
+                    },
+                    {
+                        "id": 4,
+                        "start": 2075.445,
+                        "end": 3138.362,
+                        "title": "005"
+                    },
+                    {
+                        "id": 5,
+                        "start": 3138.362,
+                        "end": 3884.837,
+                        "title": "006"
+                    },
+                    {
+                        "id": 6,
+                        "start": 3884.837,
+                        "end": 5086.656,
+                        "title": "007"
+                    },
+                    {
+                        "id": 7,
+                        "start": 5086.656,
+                        "end": 5720.514,
+                        "title": "008"
+                    },
+                    {
+                        "id": 8,
+                        "start": 5720.514,
+                        "end": 6489.094,
+                        "title": "009"
+                    },
+                    {
+                        "id": 9,
+                        "start": 6489.094,
+                        "end": 7494.89,
+                        "title": "010"
+                    },
+                    {
+                        "id": 10,
+                        "start": 7494.89,
+                        "end": 8234.074,
+                        "title": "011"
+                    },
+                    {
+                        "id": 11,
+                        "start": 8234.074,
+                        "end": 8910.332,
+                        "title": "012"
+                    },
+                    {
+                        "id": 12,
+                        "start": 8910.332,
+                        "end": 9512.193,
+                        "title": "013"
+                    },
+                    {
+                        "id": 13,
+                        "start": 9512.193,
+                        "end": 10408.391,
+                        "title": "014"
+                    },
+                    {
+                        "id": 14,
+                        "start": 10408.391,
+                        "end": 11472.515,
+                        "title": "015"
+                    },
+                    {
+                        "id": 15,
+                        "start": 11472.515,
+                        "end": 12801.904,
+                        "title": "016"
+                    },
+                    {
+                        "id": 16,
+                        "start": 12801.904,
+                        "end": 13997.917,
+                        "title": "017"
+                    },
+                    {
+                        "id": 17,
+                        "start": 13997.917,
+                        "end": 15169.921,
+                        "title": "018"
+                    },
+                    {
+                        "id": 18,
+                        "start": 15169.921,
+                        "end": 16212.079,
+                        "title": "019"
+                    },
+                    {
+                        "id": 19,
+                        "start": 16212.079,
+                        "end": 17827.863,
+                        "title": "020"
+                    },
+                    {
+                        "id": 20,
+                        "start": 17827.863,
+                        "end": 19298.475,
+                        "title": "021"
+                    },
+                    {
+                        "id": 21,
+                        "start": 19298.475,
+                        "end": 20746.797,
+                        "title": "022"
+                    },
+                    {
+                        "id": 22,
+                        "start": 20746.797,
+                        "end": 21815.472,
+                        "title": "023"
+                    },
+                    {
+                        "id": 23,
+                        "start": 21815.472,
+                        "end": 23698.378,
+                        "title": "024"
+                    },
+                    {
+                        "id": 24,
+                        "start": 23698.378,
+                        "end": 25226.251,
+                        "title": "025"
+                    },
+                    {
+                        "id": 25,
+                        "start": 25226.251,
+                        "end": 27289.298,
+                        "title": "026"
+                    },
+                    {
+                        "id": 26,
+                        "start": 27289.298,
+                        "end": 28540.714,
+                        "title": "027"
+                    },
+                    {
+                        "id": 27,
+                        "start": 28540.714,
+                        "end": 30571.763,
+                        "title": "028"
+                    },
+                    {
+                        "id": 28,
+                        "start": 30571.763,
+                        "end": 31407.496,
+                        "title": "029"
+                    },
+                    {
+                        "id": 29,
+                        "start": 31407.496,
+                        "end": 32778.541,
+                        "title": "030"
+                    },
+                    {
+                        "id": 30,
+                        "start": 32778.541,
+                        "end": 34621.091,
+                        "title": "031"
+                    },
+                    {
+                        "id": 31,
+                        "start": 34621.091,
+                        "end": 35502.381,
+                        "title": "032"
+                    },
+                    {
+                        "id": 32,
+                        "start": 35502.381,
+                        "end": 37237.191,
+                        "title": "033"
+                    },
+                    {
+                        "id": 33,
+                        "start": 37237.191,
+                        "end": 37257.579,
+                        "title": "034"
+                    }
+                ],
+                "embeddedCoverArt": "mjpeg",
+                "metaTags": {
+                    "tagAlbum": "Queen in the Mud",
+                    "tagArtist": "Maari",
+                    "tagGenre": "Audiobook",
+                    "tagTitle": "Queen in the Mud",
+                    "tagDate": "2020",
+                    "tagComposer": "Larissa Thompson",
+                    "tagComment": "A girl suddenly vanishes from her world and finds herself drifting in and out of consciousness in a world of pure darkness. The only insight into her precarious situation is a prompt opening before her eyes indicating that the system failed to delete her",
+                    "tagDescription": "A girl suddenly vanishes from her world and finds herself drifting in and out of consciousness in a world of pure darkness. The only insight into her precarious situation is a prompt opening before her eyes indicating that the system failed to delete her.\u00a0The doggedly optimistic and naive teenager, Naomi, is reborn as a monster into a fantastical world governed by the rigid rules of a suspiciously game-like system",
+                    "tagEncoder": "inAudible 1.97"
+                },
+                "mimeType": "audio/mpeg"
+            }
+        ],
+        "chapters": [
+            {
+                "id": 0,
+                "start": 0,
+                "end": 11.795,
+                "title": "001"
+            },
+            {
+                "id": 1,
+                "start": 11.795,
+                "end": 491.148,
+                "title": "002"
+            },
+            {
+                "id": 2,
+                "start": 491.148,
+                "end": 1365.89,
+                "title": "003"
+            },
+            {
+                "id": 3,
+                "start": 1365.89,
+                "end": 2075.445,
+                "title": "004"
+            },
+            {
+                "id": 4,
+                "start": 2075.445,
+                "end": 3138.362,
+                "title": "005"
+            },
+            {
+                "id": 5,
+                "start": 3138.362,
+                "end": 3884.837,
+                "title": "006"
+            },
+            {
+                "id": 6,
+                "start": 3884.837,
+                "end": 5086.656,
+                "title": "007"
+            },
+            {
+                "id": 7,
+                "start": 5086.656,
+                "end": 5720.514,
+                "title": "008"
+            },
+            {
+                "id": 8,
+                "start": 5720.514,
+                "end": 6489.094,
+                "title": "009"
+            },
+            {
+                "id": 9,
+                "start": 6489.094,
+                "end": 7494.89,
+                "title": "010"
+            },
+            {
+                "id": 10,
+                "start": 7494.89,
+                "end": 8234.074,
+                "title": "011"
+            },
+            {
+                "id": 11,
+                "start": 8234.074,
+                "end": 8910.332,
+                "title": "012"
+            },
+            {
+                "id": 12,
+                "start": 8910.332,
+                "end": 9512.193,
+                "title": "013"
+            },
+            {
+                "id": 13,
+                "start": 9512.193,
+                "end": 10408.391,
+                "title": "014"
+            },
+            {
+                "id": 14,
+                "start": 10408.391,
+                "end": 11472.515,
+                "title": "015"
+            },
+            {
+                "id": 15,
+                "start": 11472.515,
+                "end": 12801.904,
+                "title": "016"
+            },
+            {
+                "id": 16,
+                "start": 12801.904,
+                "end": 13997.917,
+                "title": "017"
+            },
+            {
+                "id": 17,
+                "start": 13997.917,
+                "end": 15169.921,
+                "title": "018"
+            },
+            {
+                "id": 18,
+                "start": 15169.921,
+                "end": 16212.079,
+                "title": "019"
+            },
+            {
+                "id": 19,
+                "start": 16212.079,
+                "end": 17827.863,
+                "title": "020"
+            },
+            {
+                "id": 20,
+                "start": 17827.863,
+                "end": 19298.475,
+                "title": "021"
+            },
+            {
+                "id": 21,
+                "start": 19298.475,
+                "end": 20746.797,
+                "title": "022"
+            },
+            {
+                "id": 22,
+                "start": 20746.797,
+                "end": 21815.472,
+                "title": "023"
+            },
+            {
+                "id": 23,
+                "start": 21815.472,
+                "end": 23698.378,
+                "title": "024"
+            },
+            {
+                "id": 24,
+                "start": 23698.378,
+                "end": 25226.251,
+                "title": "025"
+            },
+            {
+                "id": 25,
+                "start": 25226.251,
+                "end": 27289.298,
+                "title": "026"
+            },
+            {
+                "id": 26,
+                "start": 27289.298,
+                "end": 28540.714,
+                "title": "027"
+            },
+            {
+                "id": 27,
+                "start": 28540.714,
+                "end": 30571.763,
+                "title": "028"
+            },
+            {
+                "id": 28,
+                "start": 30571.763,
+                "end": 31407.496,
+                "title": "029"
+            },
+            {
+                "id": 29,
+                "start": 31407.496,
+                "end": 32778.541,
+                "title": "030"
+            },
+            {
+                "id": 30,
+                "start": 32778.541,
+                "end": 34621.091,
+                "title": "031"
+            },
+            {
+                "id": 31,
+                "start": 34621.091,
+                "end": 35502.381,
+                "title": "032"
+            },
+            {
+                "id": 32,
+                "start": 35502.381,
+                "end": 37237.191,
+                "title": "033"
+            },
+            {
+                "id": 33,
+                "start": 37237.191,
+                "end": 37257.579,
+                "title": "034"
+            }
+        ],
+        "missingParts": [],
+        "ebookFile": null
+    },
+    "libraryFiles": [
+        {
+            "ino": "1448436",
+            "metadata": {
+                "filename": "Maari.-Queen_in_the_Mud.m4b",
+                "ext": ".m4b",
+                "path": "/audiobooks/Maari/Queen_in_the_Mud/Maari.-Queen_in_the_Mud.m4b",
+                "relPath": "Maari.-Queen_in_the_Mud.m4b",
+                "size": 295699432,
+                "mtimeMs": 1654782782406,
+                "ctimeMs": 1654782782406,
+                "birthtimeMs": 1654782777296
+            },
+            "addedAt": 1654793724537,
+            "updatedAt": 1654793724537,
+            "fileType": "audio"
+        }
+    ]
+}

@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 import json
 
-from ABSapiClient import ABSLibrary
-
 
 @dataclass
 class replaceItem:
@@ -23,7 +21,7 @@ def save_json(filename: str, json_data: dict) -> None:
         f.write(json.dumps(json_data, indent=4))
 
 
-def gen_new_replace_file(library: ABSLibrary, fileName) -> None:
+def gen_new_replace_file(library, fileName) -> None:
     genres = {}
     existing_genres = library.get_genres()
     for genre in existing_genres:
@@ -35,7 +33,7 @@ def gen_new_replace_file(library: ABSLibrary, fileName) -> None:
     save_json(fileName, genres)
 
 
-def get_replace(library: ABSLibrary, filename: str) -> list[replaceItem]:
+def get_replace(library, filename: str) -> list[replaceItem]:
 
     try:
         with open(filename, "r") as f:
